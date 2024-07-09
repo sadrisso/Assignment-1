@@ -7,16 +7,29 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Azeret Mono", monospace;;
+}
+
 /* common styles here... */
 
 .btn {
-    padding: 15px 20px;
+    font-size: 20px;
+    width: 240px;
+    height: 66px;
+    padding: 21px 34px 21px 34px;
     border: none;
-    background-color: teal;
+    background-color: black;
     color: white;
     padding: 10px;
-    font-size: 1rem;
     cursor: pointer;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 /* header area styling */
@@ -56,12 +69,66 @@ nav ul li a {
     border-radius: 5px;
     cursor: pointer;
     color: #0D1321;
-    font-family: "Azeret Mono", monospace;
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 .nav-name {
     color: #0D1321;
     font-size: 1.5rem;
     font-weight: 800;
-    font-family: "Azeret Mono", monospace;
 }
+
+/* header area styling end */
+
+/* banner section styling starts here */
+
+.banner {
+    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 20px 74px 20px;
+    border: 1px solid black;
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner-image{
+    margin-bottom: 30px;
+}
+
+.banner-heading {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner-peragraph {
+    margin: 30px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner-content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+/* banner section styling ends here */
