@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common styles here... */
+
+.btn {
+    padding: 15px 20px;
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* header area styling */
+
+header {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+nav {
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 20px 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-btn {
+    padding: 15px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
+}
+
+.nav-name {
+    color: #0D1321;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: "Azeret Mono", monospace;
+}
