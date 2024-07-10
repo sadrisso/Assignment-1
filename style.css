@@ -269,7 +269,7 @@ nav ul li a {
     text-align: center;
     margin: 0 auto;
     margin-top: 80px;
-    margin-bottom: 170px;
+    margin-bottom: 120px;
 }
 
 .my-inspiration h1{
@@ -298,23 +298,75 @@ nav ul li a {
 
 .my-current-target {
     width: 1200px;
-    height: 750px;
+    height: 600px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 80px;
     margin-bottom: 170px;
-    border: 1px solid;
 }
 
 .my-current-target h1 {
-    margin-bottom: 30px;
+    margin: 30px 0px;
 }
 
 .my-current-target p {
     width: 800px;
+    margin: 30px 0px;
+    margin-bottom: 111px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 400px;
     margin: 0 auto;
 }
 
-/* my current target section starts here... */
+.card {
+    width: 350px;
+    height: 320px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.card p {
+    width: 320px;
+    text-align: left;
+}
+
+.card a {
+    margin-top: 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.js {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.css {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.html {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+/* my current target section ends here... */
 
 /* main section styling ends here... */
