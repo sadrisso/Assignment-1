@@ -298,10 +298,10 @@ nav ul li a {
 
 .my-current-target {
     width: 1200px;
-    height: 600px;
+    height: 570px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 170px;
+    margin-bottom: 111px;
 }
 
 .my-current-target h1 {
@@ -369,4 +369,160 @@ nav ul li a {
 
 /* my current target section ends here... */
 
+/* my next target section starts here... */
+
+.my-next-target {
+    width: 1200px;
+    height: 900px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.my-next-target h1 {
+    margin-bottom: 30px;
+}
+
+.my-next-target p {
+    margin-bottom: 80px;
+    width: 840px;
+    margin: 0 auto;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.horizontal-card-container {
+    margin-top: 50px;
+}
+
+.horizontal-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+    height: 220px;
+    padding: 0 10px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid lightgray;
+    border-width: 80%;
+}
+
+.horizontal-card p {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.horizontal-card a {
+    margin-top: 50px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.desc {
+    text-align: left;
+}
+
+/* my next target section ends here... */
+
 /* main section styling ends here... */
+
+
+/* footer section starts here... */
+
+.footer-banner {
+    margin: 0 auto;
+    width: 1200px;
+    border: 1px solid;
+    height: 300px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+}
+
+
+.footer-banner-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer-banner-content p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer-banner-content input {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    height: 57px;
+}
+
+.footer-banner-content button {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    width: 120px;
+    height: 58px;
+}
+
+
+.footer-social {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 0 80px;
+}
+
+
+.image-container img {
+    margin: 10px;
+}
+
+.footer-social h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+/* footer section ends here... */
