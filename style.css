@@ -42,7 +42,7 @@ body {
 
 header {
     height: 800px;
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 74px;
@@ -61,6 +61,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
+    padding: 0 130px;
 }
 
 nav ul li a {
@@ -92,6 +93,7 @@ nav ul li a {
 
 /* banner section styling starts here */
 
+
 .banner {
     background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -103,6 +105,8 @@ nav ul li a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .banner-image{
@@ -133,13 +137,15 @@ nav ul li a {
     margin-top: 30px;
 }
 
-/* banner section styling ends here */
+/* banner section styling ends here ... */
 
-/* main section styling starts here */
+/* main section styling starts here ... */
 
-main {
+/* why-web-development starts here ...*/
+
+.why-web-development {
     width: 1200px;
-    height: 1950px;
+    height: 1380px;
     margin: 0 auto;
     background: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
@@ -159,6 +165,7 @@ main {
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 70px;
 }
 
 .main-peragraph {
@@ -170,6 +177,8 @@ main {
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 48px;
+    width: 850px;
+    margin: 0 auto;
 }
 
 .card-1 {
@@ -185,6 +194,7 @@ main {
     padding: 48px;
     background-color: rgba(255, 255, 255, 0);
     margin-bottom: 32px;
+    margin-top: 47px;
 }
 
 .card-content h1 {
@@ -246,7 +256,65 @@ main {
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     padding: 48px;
     background-color: rgba(255, 255, 255, 0);
-    margin-bottom: 32px;
+    margin-bottom: 88px;
 }
 
-/* main section styling ends here */
+/* why-web-development ends here... */
+
+/* my inspiration section starts here... */
+
+.my-inspiration {
+    width: 1200px;
+    height: 750px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 170px;
+}
+
+.my-inspiration h1{
+    margin: 20px 0 24px 0;
+}
+
+.my-inspiration p {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.youTube-video {
+    width: 1200px;
+}
+
+.youTube-video iframe {
+    width: 1100px;
+    height: 580px;
+    border-radius: 15px;
+    margin: 30px 0;
+}
+
+/* my inspiration section ends here... */
+
+/* my current target section starts here... */
+
+.my-current-target {
+    width: 1200px;
+    height: 750px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 170px;
+    border: 1px solid;
+}
+
+.my-current-target h1 {
+    margin-bottom: 30px;
+}
+
+.my-current-target p {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* my current target section starts here... */
+
+/* main section styling ends here... */
